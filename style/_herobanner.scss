@@ -1,24 +1,21 @@
-.hero_banner{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    object-fit: cover;
-    
+.hero_banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  object-fit: cover;
+  position: relative;
 }
 
+.hero_banner_info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(255, 255, 255, 1); /* Blanc avec une opacité de 1 */
+  background: rgba(0, 0, 0, 0.3); /* Noir avec une opacité de 0.3 */
+  border-radius: 15px;
+  padding: 5px;
+}
 
-.video-container {
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%; /* Ratio 16:9 */
-  }
-  
-  .video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
   

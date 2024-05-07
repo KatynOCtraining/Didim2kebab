@@ -1,11 +1,12 @@
 .navbar {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    padding-left: 10px;
     align-items: center;
     background-color: #333; /* couleur de fond de la navbar */
     color: #fff; /* couleur du texte de la navbar */
     
+ 
   }
   
   .burger-menu .menu {
