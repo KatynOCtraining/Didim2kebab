@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #333; /* couleur de fond de la navbar */
+    color: #fff; /* couleur du texte de la navbar */
+    
+  }
+  
+  .burger-menu .menu {
+    position: absolute;
+    top: 0;
+    left: -220px; /* Masquer le menu hors de la vue */
+    width: 200px; /* Largeur du menu */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    height: 100vh;
+    background-color: greenyellow; /* Couleur de fond */
+    transition: left 0.3s ease; /* Ajouter une transition pour l'animation */
+}
+
+.burger-menu .menu.active {
+    left: 0; /* Afficher le menu en déplaçant depuis la gauche */
+}
+  .logo img {
+    max-width: 100px; /* ajuster la taille du logo selon vos besoins */
+  }
+  
+  .restaurant-name {
+    font-size: 1.2em; /* taille de police du nom du restaurant */
+  }
+
+  .search-icon{
+   position: absolute;
+    right: 10px;
+  }
