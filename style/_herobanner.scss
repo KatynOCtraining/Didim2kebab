@@ -1,0 +1,18 @@
+.hero_banner{
+    height: 100vh;
+    background-image: url(../assset/hero\ banner.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+   
+
+
+    .title{
+        height: 30%;
+        border-radius: 25px;
+        color: white;
+        background: rgba($color: #000000, $alpha: 0.3);
+    }
+}

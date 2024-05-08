@@ -1,1 +1,15 @@
-/*# sourceMappingURL=main.css.map */
+.hero_banner {
+  height: 100vh;
+  background-image: url(../assset/hero\ banner.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.hero_banner .title {
+  height: 30%;
+  border-radius: 25px;
+  color: white;
+  background: rgba(0, 0, 0, 0.3);
+}/*# sourceMappingURL=main.css.map */
